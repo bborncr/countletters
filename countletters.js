@@ -1,6 +1,11 @@
 function countLetters(inputText){
-  var letterCount = inputText.split(' ').join('');
-  return letterCount;
+  // remove spaces
+  var inputText = inputText.split(' ').join('');
+  //split the inputText into an array
+  var inputText = inputText.split('');
+  //create the letterCount object
+
+  return inputText;
   //return letterCount;
 }
 
